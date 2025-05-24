@@ -18,7 +18,7 @@ export function SocialLinks() {
             name: "x",
           },
           {
-            link: "https://www.instagram.com/mohit2cul/",
+            link: "https://www.instagram.com/kshitij_v_/",
             name: "instagram",
           }
         ].map((social) => (
