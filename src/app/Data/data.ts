@@ -106,25 +106,25 @@ export const projectsData: Project[] = [
     },
 ];
 
-// export const OpenSourceContributions: OpenSourceContribution[] = [
-//     {
-//         id: 1,
-//         title: "SWOC/Leetcode-Journal",
-//         description: "Social Winter Of Code 2025 project.",
-//         image: "/githubLink.svg",
-//         link: "https://github.com/hanuchaudhary/Leetcode-Journal"
-//     },
-// ];
+export const OpenSourceContributions: OpenSourceContribution[] = [
+    {
+        id: 1,
+        title: "SWOC/Leetcode-Journal",
+        description: "Social Winter Of Code 2025 project.",
+        image: "/githubLink.svg",
+        link: "https://github.com/hanuchaudhary/Leetcode-Journal"
+    },
+];
 
-// export const writingsData: Writings[] = [
-//     {
-//         title: "Setting up Tailwind CSS in a dJango project on windows",
-//         link: "https://medium.com/@kushchaudharyog/setting-up-tailwind-css-in-a-django-project-on-windows-ffe0d2132cdc",
-//         Date: "Dec 26, 2024",
-//     },
-//     {
-//         title: "How to integrate RazorPay in Next.js 14/15 with easy steps.",
-//         link: "https://medium.com/@kushchaudharyog/how-to-integrate-razorpay-in-next-js-14-15-with-easy-steps-f2d80772009c",
-//         Date: "Jan 24, 2025",
-//     },
-// ]
+export const writingsData: Writings[] = [
+    {
+        title: "Setting up Tailwind CSS in a dJango project on windows",
+        link: "https://medium.com/@kushchaudharyog/setting-up-tailwind-css-in-a-django-project-on-windows-ffe0d2132cdc",
+        Date: "Dec 26, 2024",
+    },
+    {
+        title: "How to integrate RazorPay in Next.js 14/15 with easy steps.",
+        link: "https://medium.com/@kushchaudharyog/how-to-integrate-razorpay-in-next-js-14-15-with-easy-steps-f2d80772009c",
+        Date: "Jan 24, 2025",
+    },
+]
