@@ -123,7 +123,7 @@ export function HyperText({
     <MotionComponent
       ref={elementRef}
       className={cn(
-        "overflow-hidden py-2 text-2xl md:text-4xl lowercase font-semibold",
+        "overflow-hidden py-2 text-2xl md:text-4xl font-semibold",
         className
       )}
       onMouseEnter={handleAnimationTrigger}
@@ -135,7 +135,7 @@ export function HyperText({
             key={index}
             className={cn("font-mono", letter === " " ? "w-3" : "")}
           >
-            {letter.toUpperCase()}
+            {letter}
           </motion.span>
         ))}
       </AnimatePresence>

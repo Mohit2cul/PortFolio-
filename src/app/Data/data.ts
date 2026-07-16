@@ -6,6 +6,10 @@ export interface Project {
     githubLink: string;
     technologies?: string[];
     learnings?: string[];
+    initiator?: {
+        name: string;
+        link: string;
+    };
 }
 
 export interface OpenSourceContribution {
@@ -127,4 +131,41 @@ export const writingsData: Writings[] = [
         link: "https://medium.com/@kushchaudharyog/how-to-integrate-razorpay-in-next-js-14-15-with-easy-steps-f2d80772009c",
         Date: "Jan 24, 2025",
     },
-]
+];
+
+export const collabProjectsData: Project[] = [
+    {
+        id: 1,
+        title: "Omaju",
+        description: "A microservice-based AI orchestration hub facilitating text chat, VQA, and speech conversations. It manages multiple sub-services that communicate asynchronously to process user media inputs.",
+        githubLink: "https://github.com/AdityaKatyal8899/Omaju",
+        liveLink: "https://omaju-onboarding.vercel.app/",
+        technologies: ["FastAPI", "Next.js", "MongoDB", "Tailwind CSS", "React"],
+        learnings: [
+            "Image generation model study",
+            "How text based Architecture works",
+            "How VQA and computer vision helps in Image recogniyion and pattern identification"
+        ],
+        initiator: {
+            name: "Aditya Katyal",
+            link: "https://www.adityakatyal.online/"
+        }
+    },
+    {
+        id: 2,
+        title: "TempShare",
+        description: "Secure file sharing platform with automatic expiry policies and dynamic access tokens. Files are automatically expunged from the server and CDN when the expiration time expires.",
+        githubLink: "https://github.com/AdityaKatyal8899/temp-front",
+        liveLink: "https://tempshare-ten.vercel.app/",
+        technologies: ["Next.js", "Flask", "Cloudinary", "TypeScript", "Tailwind CSS"],
+        learnings: [
+            "Learned Cloud Based Retrival",
+            "Auto Expiriation Time Triggering Methods"
+        ],
+        initiator: {
+            name: "Aditya Katyal",
+            link: "https://www.adityakatyal.online/"
+        }
+    }
+];
+
