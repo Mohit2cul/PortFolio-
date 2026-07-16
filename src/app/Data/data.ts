@@ -34,7 +34,8 @@ export const skillsData: string[] = [
     "Git", "GitHub", "GitHub Actions", 
     "Vercel", "NPM", "Node.js", "Vite",
     "C","DSA", "Algorithms",
-    "Python",
+    "Python", "MS Excel",
+    "PostgreSQL"
 ];
 
 export const projectsData: Project[] = [

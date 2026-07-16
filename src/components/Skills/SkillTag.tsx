@@ -12,6 +12,8 @@ export function SkillTag({ skill }: { skill: string }) {
     "MongoDB",
     "Docker",
     "JavaScript",
+    "MS Excel",
+    "PostgreSQL"
   ];
 
   const isHighlighted = highlightedSkills.includes(skill);
